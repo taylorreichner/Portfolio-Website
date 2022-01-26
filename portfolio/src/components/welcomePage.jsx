@@ -1,6 +1,7 @@
 import React from 'react';
 import './welcome.css'
 import { useNavigate } from 'react-router-dom';
+import Header from '../containers/header';
 
 
 const WelcomePage = () => {
@@ -9,11 +10,22 @@ const WelcomePage = () => {
     
     return (
         <>
+        <div className='background'>
+        <Header />
+        
         <div className="Spacing">
-            <div>Hello, I'm Taylor Reichner</div>
-            <div>I'm a full-stack web developer</div>
-            <button onClick={handleClick}>Click </button>
+            <div className='Split'>
+            <div className='Taylor'>Hello, I'm Taylor Reichner</div>
+            <div className='Welcome'>I'm a full-stack web developer. I enjoy creating practical projects that help the world run effeciently.</div>
+            <div className='buttons'>
+            <button class="button-78" onClick={handleClick}>Contact</button>
+            <button class="button-78" >Portfolio</button>
+            </div>
+            </div>
+            <div>pic</div>
         </div>
+        </div>
+        
         </>
     )
 }
