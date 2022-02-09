@@ -18,8 +18,8 @@ const WelcomePage = () => {
             <div className='Taylor'>Hello, I'm Taylor Reichner</div>
             <div className='Welcome'>I'm a full-stack web developer. I enjoy creating practical projects that help the world run effeciently.</div>
             <div className='buttons'>
-            <button class="button-78" onClick={handleClick}>Contact</button>
-            <button class="button-78" >Portfolio</button>
+            <button class="button-78" >Contact</button>
+            <button class="button-78" onClick={handleClick}>Portfolio</button>
             </div>
             </div>
             <div>pic</div>
